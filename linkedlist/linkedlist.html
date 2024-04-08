@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 10px;
+        }
+        span{
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">Input Data :</label>
+            <input type="text" id="data">
+        </div>
+        <div>
+            <label for="">Input Number :</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <span>
+                <button onclick="pushData()">Push Data</button>
+            </span>
+            <span>
+                <button onclick="unshiftData()">Unshift Data</button>
+            </span>
+            <span>
+                <button onclick="popData()">Pop Data</button>
+            </span>    
+            <span>
+                <button onclick="shiftData()">Shift Data</button>
+            </span>   
+            <span>
+                <button onclick="getData()">Get Data</button>
+            </span>     
+            <span>
+                <button onclick="insertData()">insert Data</button>
+            </span>
+            <span>
+                <button onclick="setData()">Set Data</button>
+            </span>
+            <span>
+                <button onclick="removeData()">Remove Data</button>
+            </span>
+            <span>
+                <button onclick="displayData()">Display Data</button>
+            </span>
+        </div>
+    </form>
+    <label for="" id="result"></label>
+    <script src="linkedlist.js"></script>
+</body>
+
+</html>
