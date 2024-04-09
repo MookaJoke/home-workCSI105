@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            div{
+                margin: 5px;
+            }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">Input Expression : </label>
+            <input type="text" id="exe">
+        </div>
+        <div>
+            <span>
+                <button onclick="displayInfixToPostfix()">แปลง Infix เป็น Postfix</button>
+            </span>
+            <span>
+                <button onclick="displayPostfixToInfix()">คำนวณนิพจน์ Postfix</button>
+            </span>
+        </div>
+    </form>
+    <label for="" id="result"></label>
+    <script src="stack.js"></script>
+</body>
+</html>

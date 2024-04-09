@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="">จำนวนข้อมูลที่ต้องการ : </label>
+        <input type="text" id="data1">
+    </div>
+    <div>
+        <span>
+            <button onclick="randomData()">สุ่มตัวเลข</button>
+        </span>
+        <span>
+            <button onclick="displaybubbleSort()">Bubble sort</button>
+        </span>
+        <span>
+            <button onclick="displayinsertionSort()">Insertion sort</button>
+        </span>
+        <span>
+            <button onclick="displayshellSort()">Shell sort</button>
+        </span>
+    </div>
+    <label for="" id="result"></label>
+    <label for="" id="bubbleB"></label>
+    <label for="" id="bubbleA"></label>
+    <label for="" id="insertB"></label>
+    <label for="" id="insertA"></label>
+    <label for="" id="shellB"></label>
+    <label for="" id="shellA"></label>
+    <script src="Sorting.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">Input</label>
+            <input type="number" id="Data">
+        </div>
+        <div>
+            <span>
+                <button onclick="addInput()">Add Input</button>
+                <button onclick="displayInorder()">In Order</button>
+                <button onclick="displayPostorder()">Post Order</button>
+                <button onclick="displayPreorder()">Pre Order</button>
+            </span>
+        </div>
+    </form>
+    <label for="" id="result"></label>
+    <br>
+    <label for="" id="aes"></label>
+    <br>
+    <label for="" id="ies"></label>
+    <br>
+    <label for="" id="pes"></label>
+    <script src="tree.js"></script>
+</body>
+</html>
